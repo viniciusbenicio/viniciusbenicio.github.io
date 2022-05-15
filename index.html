@@ -1,9 +1,169 @@
-<html>
+<!DOCTYPE html>
+<html lang="pt-BR">
 
-  <center>
-  <h5>
-    Site em desevolvimento
-  </h5>
-    
-    </center>
+<head>
+    <title> Portifolio </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul id="links">
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#experiencias">Experiencias</a></li>
+            </ul>
+        </nav>
+
+        <ul id="redes">
+            <li>
+                <a href="https://twitter.com" target="_blank" rel="noreferrer noopener">
+                    <img src="img/twitter.svg" alt="Twitter" />
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/viniciusbenicio" target="_blank" rel="noreferrer noopener">
+                    <img src="img/github.svg" alt="Twitter" />
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/viniciusbenicio/" target="_blank" rel="noreferrer noopener">
+                    <img src="img/linkedin.svg" alt="Twitter" />
+                </a>
+            </li>
+            <li>
+                <a href="https://wa.me/5511952355735" target="_blank" rel="noreferrer noopener">
+                    <img src="img/whatsapp.svg" alt="Twitter" />
+                </a>
+            </li>
+        </ul>
+
+
+    </header>
+    <main>
+        <section id="inicio">
+
+            <h1>
+                Especialidae em <span>tecnologias web</span>
+            </h1>
+            <img src="img/vinicius.png" alt="Vinicius Benicio">
+        </section>
+        <section id="formacao">
+            <div id="conteudo-formacao">
+                <h2>Formação</h2>
+                <ul id="lista-formacao">
+                    <li class="formacao-item">
+                        <img src="img/logo-uninove.svg" alt="Uninove">
+                        <div>
+                            <h3>
+                                Graduação em Ciencia da Computação
+                            </h3>
+                            <span>
+                                <p class="onde">
+                                    Universidade Nove de Julho
+                                </p>
+                                <p class="quando">
+                                    Concluido - Julho de 2020
+                                </p>
+                            </span>
+                        </div>
+                    </li>
+                    <li class="formacao-item">
+                        <img src="img/logo-uninove.svg" alt="Uninove">
+                        <div>
+                            <h3>
+                                Pós Graduação em Data Science
+                            </h3>
+                            <span>
+                                <p class="onde">
+                                    Universidade Nove de Julho
+                                </p>
+                                <p class="quando">
+                                    Concluido - Julho de 2021
+                                </p>
+                            </span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="habilidades">
+            <div id="conteudo-habilidades">
+                <h2>
+                    <span>Minhas</span>Habilidades
+                </h2>
+
+                <ul id="tecnologias">
+                    <li class="tecnologia">
+                        <img src="img/icone_html.png" alt="HTML5">
+                        <p>HTML</p>
+                    </li>
+                    <li class="tecnologia">
+                        <img src="img/icone_css.png" alt="CSS">
+                        <p>CSS</p>
+                    </li>
+                    <li class="tecnologia">
+                        <img src="img/icone_javascript.png" alt="JAVASCRIPT">
+                        <p>Javascript</p>
+                    </li>
+                    <li class="tecnologia">
+                        <img class="angular-csharp" src="img/angular.svg" alt="Angular">
+                        <p>Angular</p>
+                    </li>
+
+                    <li class="tecnologia">
+                        <img  class="angular-csharp" src="img/csharp.svg" alt="C#">
+                        <p>CSharp</p>
+                    </li>
+                    
+
+
+                </ul>
+            </div>
+
+        </section>
+        <section id="experiencias">
+            <div id="conteudo-experiencias">
+                <h2>
+                    <span>Minhas</span>
+                    Experiencias
+                </h2>
+                <article class="experiencia">
+                    <img src="img/talk.png" alt="Talk Communications">
+                    <div>
+                        <h3>Desenvolvedor .NET</h3>
+                        <p>
+                           Atualmente Desenvolvendo aplicações com BackEnd .NET e FrontEnd AngularJS com Banco de Dados Relacional SQL SERVER 2019, na aplicação que trabalho
+                           trabalho com sustentação do ambiente, realizando novas features, correções de bugs.
+                           <p>
+                            Competências: <span>.NET Framework · AngularJS · Microsoft SQL Server · ASP.NET MVC · ASP.NET · C# · .NET Core · SQL</span>
+                           </p>
+                          
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div id="conteudo-footer">
+            <div id="titulo-footer">
+                <h2>Entre em contato!</h2>
+                <p>Me mande uma mensagem!</p>
+            </div>
+            <form>
+                <input type="text" placeholder="Nome" required="true">
+                <input type="email" placeholder="E-mail" required="true">
+                <input type="tel" placeholder="Telefone" required="true">
+                <textarea placeholder="Mensagem" rows="7" autocapitalize="sentences" required="true"></textarea>
+                <input type="submit" value="Enviar mensagem" id="submit">
+            </form>
+        </div>
+    </footer>
+
+</body>
+
 </html>
